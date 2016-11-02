@@ -1,5 +1,5 @@
-To use this project, clone the repository on your computer.
+#### Use this project
 
-Launch npm install in your CLI
-
-Launch gulp in your CLI
+* clone the repository on your computer.
+* Launch npm install in your CLI
+* Launch gulp in your CLI
