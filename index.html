@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simplicite Front-End Example</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+	<link rel="stylesheet" href="dist/css/style.min.css"/>
+</head>
+<body>
+	<header>
+		<div class="sim-header">
+			<div class="sim-header-upMenu">
+				<div class="sim-header-upMenuBtn">
+					<a href="#">
+						<img src="src/img/menu-hamburger-icon.png">
+					</a>
+				</div>
+				<div class="sim-header-upMenuBtn">
+					<a href="#">
+						<img src="src/img/menu-points-icon.png">
+					</a>
+				</div>
+			</div>
+			<div class="sim-header-menu">
+				<div id="menuLinkOrder" class="sim-header-menuItem active"><a class="sim-header-menuItem-link" href="#">Commandes</a></div>
+				<div id="menuLinkProduct" class="sim-header-menuItem"><a class="sim-header-menuItem-link"href="#">Produits</a></div>
+				<div id="menuLinkClient" class="sim-header-menuItem"><a class="sim-header-menuItem-link" href="#">Clients</a></div>
+			</div>
+		</div>
+	</header>
+
+	<div class="sim-clients-container sim-orders-container sim-products-container">
+		Chargement...
+	</div>
+	
+	
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>

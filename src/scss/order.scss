@@ -1,0 +1,177 @@
+.sim-order-textTitle {
+	font-family: 'Raleway';
+	font-size: 13px;
+	color: #1d1d1d;
+	//line-height: 20px;
+	font-weight: 500;
+}
+
+@media screen and (min-width: 1000px){
+	.sim-order-textTitle {
+		font-size: 14px;
+	}
+}
+
+.sim-order-text {
+	font-family: 'Raleway';
+	font-size: 12px;
+	color: #919191;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+@media screen and (min-width: 1000px){
+	.sim-order-text {
+		font-size: 13px;
+	}
+}
+
+/* text */
+
+.sim-order-cmdStatus-divId {
+	height: 35px;
+	width: 35px;
+	font-weight: 500;
+	background: #2196f3;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	color: #fff;
+	font-family: 'Raleway';
+	font-size: 12px;
+	margin: 5px 0px;
+}
+
+.sim-order-cmdStatus-divStatus {
+	height: 35px;
+	width: 35px;
+	font-weight: 500;
+	background: #53c032;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	color: #fff;
+	font-family: 'Raleway';
+	font-size: 12px;
+	margin: 5px 0px;
+	display: none;
+}
+
+////////////////////
+
+.sim-orders-container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 10px;
+	flex-wrap: wrap;
+}
+
+.sim-order {
+	margin: 10px;
+	min-width: 290px;
+	background: #fff;
+	width: 350px;
+	max-width: 400px;
+	border-radius: 4px;
+	box-shadow: 0px 3px 8px 0px rgba(30, 136, 229, 0.17);
+
+	.sim-order-upperInfo {
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		height: 75px;
+		flex-direction: row;
+		margin-top: 12px;
+	}
+
+	.sim-order-cmdInfo {
+		width: 98%;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 715px){
+	.sim-orders-container .sim-order {
+		width: 95%;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.sim-orders-container .sim-order {
+		width: 49%;
+		max-width: 50%;
+
+		.sim-order-upperInfo {
+			height: 99px;
+		}
+	}
+}
+
+.sim-order-upperInfo {
+	display: flex;
+	flex-direction: row;
+
+	.sim-order-clientInfo {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	}
+}
+
+.sim-order-clientInfo-date {
+	height: 25px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+@media screen and (min-width: 1000px){
+	.sim-order-clientInfo-date {
+		height: 35px;
+	}
+}
+
+.sim-order-clientInfo-name {
+	height: 17px;
+}
+
+.sim-order-clientInfo-mobile {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	height: 17px;
+}
+
+.sim-order-cmdInfo li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 62px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid #f8f8f8;
+}
+
+.sim-order-cmdDetail {
+	width: 90%;
+	height: 56px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+
+	.sim-order-cmdDetail-block {
+		margin-right: 35px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+}
